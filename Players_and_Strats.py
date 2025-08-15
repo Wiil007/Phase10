@@ -128,12 +128,23 @@ class Phase:
     def phase10(self, hand):
         pass
 
-class set_of_card:
+class set_of_cards:
     def __init__(self, num_cards):
         self.cards = []
         self.number_of_cards = num_cards
         self.number = 0
+    
 
+class run_of_cards:
+    def __init__(self, num_cards):
+        self.cards = []
+        self.number_of_cards = num_cards
+        self.lowest_card = 0
+        self.highest_card = 0
 
-    def 
+class color_set:
+    def __init__(self, num_cards):
+        self.cards = []
+        self.number_of_cards = num_cards
+        self.color = None
         

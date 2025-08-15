@@ -1,8 +1,8 @@
 from Card_and_Deck import Card, Deck
-from Players_and_Strats import Player, HumanPlayer, PhaseTracker
+from Players_and_Strats import Player, HumanPlayer
 from Game_Manager import GameManager
 
-employees = [Human_Player(), HumanPlayer()]
+employees = [HumanPlayer(), HumanPlayer()]
 
 corprate = GameManager(employees)
 print("starting game")
