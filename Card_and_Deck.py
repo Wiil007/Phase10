@@ -20,6 +20,9 @@ class Card:
         
     def __str__(self):
         return f"Color: {self.color}, Number: {self.number}"
+    
+    def __repr__(self):
+        return f"Color: {self.color}, Number: {self.number}"
 
 class Deck: 
 
